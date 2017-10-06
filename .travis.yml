@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 sudo: false
 language: node_js
 node_js:
@@ -13,17 +12,3 @@ deploy:
   app: restaurants-app-mongoose-
   on:
     repo: danieldowler/restaurants-app-mongoose-
-=======
-language: node_js
-node_js: node
-services:
-- mongodb
-deploy:
-  provider: heroku
-  api_key:
-    secure: 1r9Ht/NugWPm5h19y2dkRPM14i6omah+i0JTCTzlm9wY2V66969jmHu1i+3met0uU4SOGyswCL7qOtljEpx5JQAFhG9NIds7tKu24ynutWK+jNg8hX+XOAWDEzhEB45NcQa0UEevHTCLrgIZHBaADHJHgC8DZqLBpvVRJegwM9R7gj8NB/yL+WkfPRGDJk33m2v+CXPpCbcAmzNDhze4zlRt/PLMz0iuZ2ps7f+9oQ6ZOBDemRhUra8HK64cmndqQjUqQVG+CIQ/k1ubNsmY6KZ7tSXKrAh7yPTkN3a59Xp1u6TpJfcOHzYHlIUgEdlP2fGYfnkD2vy/kXtMy02jZ6jDFp2sKpDBfwhPaSSh1ljC+7m9JzlqIib/MyfBJFltbZgSkht/CsgxlEh3kHW1W29ygXOuYdbWp2lFVRpraSr3vwY+6jwkC/VnvhGlqTNiTNKGCX+hoQqM6jskHOkB/XGmTh7Q3sM3gsaWCYikgtp5VJVk5xRqX2mmsHFdS+w4GjcOynkB5dfabtOI7OmxU9j6JwbqTEVyPdSmr040G9vqw6LemVTDyUgjWbDeN/Wf+TzF2FY3dYVYzo4dnKUOXKh/lAEq/pA1pj318TsOvP6L8ajn78qeYRzOZlYoWReq6NCLpcCNZE8/s+/QWG3KmEvpNY24ImYa53Di6zE8W8Y=
-  app: node-restaurants-app-mongoose
-  on:
-    repo: Thinkful-Ed/node-restaurants-app-mongoose
-    branch: feature/with-tests
->>>>>>> Stashed changes
