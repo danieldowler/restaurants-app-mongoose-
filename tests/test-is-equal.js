@@ -1,5 +1,7 @@
 const should = require('chai').should();
 const isEqual = require('../isEqual');
+const mongoose = require ('mongoose');
+const mocha = require ('mocha')
 
 describe('isEqual', function () {
 
